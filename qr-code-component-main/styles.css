@@ -1,15 +1,22 @@
 .box {
     width: 375px;
-    height: 500px;
+    height: 550px;
     background-color: hsl(0, 0%, 100%);
-    margin: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
     
 }
 
 img{
     max-width: 90%;
     max-height: auto;
-    margin: 10px 10px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 body {
@@ -19,8 +26,15 @@ body {
 
 h2 {
     color: hsl(218, 44%, 22%);
+    margin: 10px auto;
+    text-align: center;
+    width: 300px;
 }
 
 p{
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
 }
